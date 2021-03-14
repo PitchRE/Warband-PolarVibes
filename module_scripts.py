@@ -9377,7 +9377,7 @@ scripts = [
         (agent_is_alive, ":my_agent"),
         (agent_is_active, ":my_agent"),
         (agent_set_animation, ":my_agent", 442, 1), 
-        (agent_play_sound, ":my_agent", 132),
+        (agent_play_sound, ":my_agent", 108),
            (else_try),
 
 

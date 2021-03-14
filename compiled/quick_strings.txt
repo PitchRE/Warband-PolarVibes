@@ -371,11 +371,11 @@ qstr_/ /
 qstr_You_got_keys_of_dung You_got_keys_of_dungeon.
 qstr_You_must_stay_behind You_must_stay_behind_the_line_on_the_ground!_Point_is_not_counted.
 qstr_Tutorial Tutorial
+qstr__action_cheer _action_cheer
 qstr_Develope_mode_activa Develope_mode_activated
 qstr_Develope_mode_deacti Develope_mode_deactivated
 qstr_Develope_mode_presen Develope_mode_presentation_started
 qstr_Develope_mode_present Develope_mode_presentation_deactivated
-qstr__action_cheer _action_cheer
 qstr_{!}sending_prisoner_ {!}sending_prisoner_cart_6_feet_underground!
 qstr_{!}spawn_prison_cart {!}spawn_prison_cart_5_secs_initiated!
 qstr_{!}spawn_prison_cart! {!}spawn_prison_cart!
