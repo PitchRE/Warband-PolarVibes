@@ -9377,10 +9377,16 @@ scripts = [
         (agent_is_alive, ":my_agent"),
         (agent_is_active, ":my_agent"),
         (agent_set_animation, ":my_agent", 442, 1), 
+
+        (player_get_gender, ":gender", ":player_no"),
+        (try_begin),
+        (eq, ":gender", 0),
+        (agent_play_sound, ":my_agent", 131),
+        (else_try),
         (agent_play_sound, ":my_agent", 108),
-           (else_try),
+        (try_end),
 
-
+   (else_try),
 
  (eq, ":sub_event", adimi_tool_dance),
       
@@ -9398,8 +9404,16 @@ scripts = [
         (agent_is_alive, ":my_agent"),
         (agent_is_active, ":my_agent"),
           (agent_set_animation, ":my_agent", 194, 1), 
+    
+        (player_get_gender, ":gender", ":player_no"),
+        (try_begin),
+        (eq, ":gender", 0),
         (agent_play_sound, ":my_agent", 132),
-           (try_end),
+        (else_try),
+        (agent_play_sound, ":my_agent", 108),
+     (try_end),
+     (try_end),
+
 
 
            (try_end),
